@@ -12,7 +12,7 @@ defineProps({
   <!-- link to event link route and pass props -->
   <RouterLink
     class="event-link"
-    :to="{ name: 'event-details', params: { id: event.id } }"
+    :to="{ name: 'event-Details', params: { id: event.id } }"
   >
     <div class="event-card">
       <!-- display event data -->
