@@ -1,4 +1,5 @@
 <script setup>
+// define props for using this components
 defineProps({
   event: {
     type: Object,
@@ -8,6 +9,7 @@ defineProps({
 </script>
 
 <template>
+  <!-- link to event link route and pass props -->
   <RouterLink
     class="event-link"
     :to="{ name: 'event-details', params: { id: event.id } }"
